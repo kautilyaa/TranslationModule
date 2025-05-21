@@ -1,0 +1,50 @@
+/* Custom styles for the RAG Translator application */
+
+.textarea-container {
+    position: relative;
+}
+
+.textarea-container textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icon i {
+    margin-right: 0.5rem;
+}
+
+.spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-width: 0.2em;
+}
+
+.section-card {
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+}
+
+.section-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.page-header {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .btn-icon span {
+        display: none;
+    }
+    
+    .btn-icon i {
+        margin-right: 0;
+    }
+}
