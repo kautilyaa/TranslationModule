@@ -235,6 +235,3 @@ services:
 - Some providers have length limitations for free tiers
 - Ensure internet connectivity for external providers
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
